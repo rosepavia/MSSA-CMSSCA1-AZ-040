@@ -3,11 +3,11 @@
 #Foundations of using a "Foreach" loop
 
 #Foreach (Condition) {Statement Block "Doing Part"}
-Foreach ($Item in $Items){Statement Block}
+#Foreach ($Item in $Items){Statement Block}
 
-$ProcessList = "Notepad","Charmap","mspaint"
+$ProcessList = "Notepad","Charmap","calcapp"
 $ProcessList
-Start-Sleep -Seconds 2
+Start-Sleep -Seconds 5
 clear
 
 foreach ($ProcessItem in $ProcessList){
